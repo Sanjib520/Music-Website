@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Lemonada&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lemonada", cursive;
+}
+
+#logo{
+  display: flex;
+  color:white;
+  align-items: center;
+  margin: 0 12px;
+  font-size: 22px;
+  margin-right: 100px;
+}
+
+#logo img{
+  height: 43px;
+}
+
+#navbar {
+  background-color: #d43b3b;
+  padding: 15px 14px;
+}
+
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#navbar li {
+  list-style: none;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 20px 35px;
+  color: white;
+  text-transform: uppercase;
+}
+
+#navbar li a:hover {
+  color: black;
+}
+
+#introSection {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: white;
+  background: center / cover no-repeat url("/static/music.jpg");
+  height: 450px;
+  background-color: red;
+}
+
+#introSection div.small {
+  font-size: 23px;
+  font-family: 'Lemonade', cursive;
+  padding: 4px;
+}
+
+#sponsersSection {
+  height: 300px;
+  background-color: rgb(206, 206, 83);
+}
+
+#sponsersSection h2{
+  text-align: center;
+  padding-top: 23px;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+}
+
+#sponsersSection h2 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 50px;
+}
+
+#sponsers{
+  height: 140px;
+  max-width: 1000px;
+  margin: 27px auto;
+}
+
+.spImage{
+  height: 80%;
+  margin: 15px;
+}
+
+#missionSection {
+  background-color: rgb(147, 229, 161);
+  height: 320px;
+  margin: auto;
+  width: 100%;
+}
+
+#missionSection h2{
+  text-align: center;
+  padding-top: 12px;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 26px;
+    width: 30%;
+    margin: 52px 20px;
+    height: 167px;
+}
+
+.card h3{
+  text-align: center;
+    /* justify-content: center; */
+    margin: 13px;
+}
+
+.card-box{
+  margin: -9px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-img{
+  height: 100px;
+}
+
+.card-img img{
+  height: inherit;
+}
+
+.card-content{
+  padding: 0 30px;
+}
+
+.card-content p{
+  font-size: 12px;
+}
+
+
+
+#footer {
+  display: flex;
+  height: 60px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  font-family: 'Comic Neue', cursive;
+}
+
+

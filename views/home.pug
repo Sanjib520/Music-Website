@@ -1,0 +1,61 @@
+extends base.pug 
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+        include ../static/style.css
+
+block content
+    
+    section#introSection
+        div Welcome to Sanjib's Music Academy!
+        div.small Motivation Music Maestro-del-coro
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Classical Music
+
+            div.card-box 
+                div.card-img 
+                    img(src="/static/mus.png", alt="Clssical music")
+
+                div.card-content 
+                    p Best in classical music in all over the music industry.
+
+        div.card
+            h3 Music with heart and soul
+
+            div.card-box 
+                div.card-img 
+                    img(src="/static/logos.png", alt="Clssical music")
+
+                div.card-content 
+                    p Feel the music in your viens and only then you can excel in it.
+
+        div.card
+            h3 Expert Reviews
+
+            div.card-box 
+                div.card-img 
+                    img(src="/static/logo.png", alt="Clssical music")
+
+                div.card-content 
+                    p Our Experts will always be there to guide you.
+
+    section#sponsersSection
+        h2  Our Sponsers
+                i.icon1.fa.fa-home.fa-3x(aria-hidden='true')
+                i.icon2.fa.fa-facebook.fa-3x(aria-hidden='true')
+                i.icon3.fa.fa-instagram.fa-3x(aria-hidden='true')
+                i.icon4.fa.fa-twitter.fa-3x(aria-hidden='true')
+
+        div#sponsers 
+            img(src="/static/adi2.png", alt="Adidas", class = "spImage")
+            img(src="/static/hp.png", alt="Adidas", class = "spImage")
+            img(src="/static/moto.png", alt="Adidas", class = "spImage")
+            img(src="/static/puma.png", alt="Adidas", class = "spImage")
+            img(src="/static/apple.png", alt="Adidas", class = "spImage")
+            img(src="/static/dell.png", alt="Adidas", class = "spImage")

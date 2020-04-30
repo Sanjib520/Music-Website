@@ -1,0 +1,30 @@
+.container{
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../static/abo.jpg) ;
+}
+
+
+h1{
+    color: #d43b3b;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+    color: blue;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head{
+    text-align: center;
+    color:chartreuse;
+    margin-bottom: 40px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+
+}

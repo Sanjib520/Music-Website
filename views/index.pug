@@ -1,0 +1,73 @@
+//- index.pug
+doctype html
+html
+  head
+
+    title Sanjib Music Academy
+
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+        ul
+            div#logo
+                img(src="/static/lolo.png", alt="logo")
+                | SMA
+            li #[a(href = "/") Home]
+            li #[a(href = "/") About ]
+            li #[a(href = "/") Services ]
+            li #[a(href = "/") Join Now ]
+            li #[a(href = "/") Contact ]
+
+    section#introSection
+        div Welcome to Sanjib's Music Academy!
+        div.small Motivation Music Maestro-del-coro
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Classical Music
+
+            div.card-box 
+                div.card-img 
+                    img(src="/static/mus.png", alt="Clssical music")
+
+                div.card-content 
+                    p Best in classical music in all over the music industry.
+
+        div.card
+            h3 Music with heart and soul
+
+            div.card-box 
+                div.card-img 
+                    img(src="/static/logos.png", alt="Clssical music")
+
+                div.card-content 
+                    p Feel the music in your viens and only then you can excel in it.
+
+        div.card
+            h3 Expert Reviews
+
+            div.card-box 
+                div.card-img 
+                    img(src="/static/logo.png", alt="Clssical music")
+
+                div.card-content 
+                    p Our Experts will always be there to guide you.
+
+    section#sponsersSection
+        h2  Our Sponsers
+        div#sponsers 
+            img(src="/static/adi2.png", alt="Adidas", class = "spImage")
+            img(src="/static/hp.png", alt="Adidas", class = "spImage")
+            img(src="/static/moto.png", alt="Adidas", class = "spImage")
+            img(src="/static/puma.png", alt="Adidas", class = "spImage")
+            img(src="/static/apple.png", alt="Adidas", class = "spImage")
+            img(src="/static/dell.png", alt="Adidas", class = "spImage")
+
+
+    footer#footer
+        |   Copyright © 2020 SanjibMusicAcademy.com | All rights reserved
+
+    script
+      include ../static/index.js
